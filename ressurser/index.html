@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Eksempler</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        button {
+            margin: 10px 0;
+        }
+        section {
+            border: solid 1px black;
+            margin: 5vh;
+            padding: 5vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Eksempler</h1>
+
+    <!-- Eksempel 1: Endre tekst med knapp -->
+    <section>
+        <h2>Endre tekst</h2>
+        <h3 id="overskrift">Velkommen!</h3>
+        <button id="endrerTekst">Endre tekst</button>
+    </section>
+
+    <!-- Eksempel 2: Dynamisk liste -->
+    <section>
+        <h2>Dynamisk liste</h2>
+        <ul id="liste"></ul>
+        <input id="nyttElement" type="text" placeholder="Legg til et element">
+        <button id="leggTil">Legg til</button>
+    </section>
+
+    <!-- Eksempel 3: Objektmanipulasjon -->
+    <section>
+        <h2>Oppdater personinformasjon</h2>
+        <form id="personForm">
+            <label for="navn">Navn:</label>
+            <input type="text" id="navn" placeholder="Skriv inn navn" required><br>
+    
+            <label for="alder">Alder:</label>
+            <input type="number" id="alder" placeholder="Skriv inn alder" required><br>
+    
+            <button type="submit">Oppdater person</button>
+        </form>
+        <p id="personInfo">Ingen person er valgt ennå.</p>
+        <button id="visPerson">Vis personinfo</button>
+    </section>
+
+    <!-- Eksempel 4: Start bil -->
+    <section>
+        <h2>Bilstyring</h2>
+        <p id="bilStatus">Ingen handling er utført.</p>
+        <button id="startBil">Start bilen</button>
+        <button id="visBilInfo">Vis bilinfo</button>
+    </section>
+    <!-- Eksempel 5: Sorter en liste -->
+    <section>
+        <h2>Sorter liste</h2>
+        <ul id="usortertListe">
+            <li>Banan</li>
+            <li>Eple</li>
+            <li>Appelsin</li>
+            <li>Øreplugg</li>
+            <li>Agurk</li>
+            <li>Varm</li>
+        </ul>
+        <button id="sorterListe">Sorter listen</button>
+    </section>
+</body>
+</html>
