@@ -1,1 +1,47 @@
-p
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagersystem</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>Lagersystem</h1>
+    </div>
+    
+    <h2>Inventory Items</h2>
+
+    <div id="inventoryItems">
+        <div id="item">
+            <img src="" alt="">
+            <p>Navn...</p>
+            <ul id="liste"></ul>
+            <p>Beskrivelse...</p>
+            <ul id="Beskrivelse"></ul>
+            <p>Tilgjengelighetsstatus:</p>
+            <ul id="stk"></ul>
+        </div>
+    </div>
+
+    <!-- Eksempel 2: Dynamisk liste -->
+    <section>
+        <h2>Lagerførte Produkter</h2>
+        <ul id="liste"></ul>
+        <input id="nyttElement" type="text" placeholder="Legg til produkt">
+        <button id="leggTil">Legg til</button>
+        <button id="leggTilBilde">Last opp bilde av produkt</button>
+    </section>
+
+
+    <section>
+        <button id="Lagre">Lagre endringer</button>
+    </section>
+
+
+</body>
+</html>
+

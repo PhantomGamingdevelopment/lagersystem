@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(62, 62, 62);
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    justify-content: space-between;
+    height: auto;
+    flex-direction: column;
+    padding: 1vw;
+    align-items: center;
+}
+
+#item{
+    display: flex;
+    background-color: rgb(54, 54, 54);
+    width: 20vw;
+    height: auto;
+    flex-direction: column;
+    padding: 1vw;
+    
+}
+
+#Lagre{
+    margin-top: 1vw;
+    height: 10vw;
+    padding: 1vw;
+    height: auto;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    font-weight: bold;
+
+}
