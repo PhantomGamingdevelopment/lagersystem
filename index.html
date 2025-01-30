@@ -19,9 +19,9 @@
         <div id="item">
             <img src="" alt="">
             <p>Navn...</p>
-            <ul id="liste"></ul>
+            <ul id="navn"></ul>
             <p>Beskrivelse...</p>
-            <ul id="Beskrivelse"></ul>
+            <ul id="Beskrivelselist"></ul>
             <p>Tilgjengelighetsstatus:</p>
             <ul id="stk"></ul>
         </div>
@@ -29,13 +29,19 @@
 
     <!-- Eksempel 2: Dynamisk liste -->
     <section>
-        <h2>Lagerførte Produkter</h2>
-        <ul id="liste"></ul>
-        <input id="nyttElement" type="text" placeholder="Legg til produkt">
-        <button id="leggTil">Legg til</button>
-        <button id="leggTilBilde">Last opp bilde av produkt</button>
+        <input id="liste" type="text" placeholder="Skriv inn Produktnavn">
+        <button id="leggTilProdukt">Skriv inn Produktnavn</button>
     </section>
 
+    <section>
+        <input id="Beskrivelseelement" type="text" placeholder="Legg inn beskrivelse">
+        <button id="Leggtilbeskrivelse">Legg til beskrivelse</button>
+    </section>
+
+    <section>
+        <input id="Leggtilantall" type="text" placeholder="Skriv inn antall i tall">
+        <button id="leggTil">Legg til antall</button>
+    </section>
 
     <section>
         <button id="Lagre">Lagre endringer</button>
@@ -44,4 +50,5 @@
 
 </body>
 </html>
+
 
