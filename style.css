@@ -44,7 +44,21 @@ h2{
     font-family: 'Open Sans', sans-serif;
 }
 
-#leggTilProdukt, #liste{
+#leggTilProdukt{
+    background-color: rgba(87, 60, 240, 0.272);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 1.5vw;
+    padding: 1vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    width: 30vw;
+    margin-top: 1vw;
+    margin-left: 0.7vw;
+}
+
+#liste{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: none;
@@ -57,7 +71,7 @@ h2{
     margin-top: 1vw;
 }
 
-#Leggtilbeskrivelse, #Beskrivelseelement{
+#Beskrivelseelement{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: none;
@@ -70,7 +84,7 @@ h2{
     margin-top: 1vw;
 }
 
-#leggTil, #Leggtilantall{
+#Leggtilantall{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: none;
@@ -81,5 +95,27 @@ h2{
     font-family: 'Open Sans', sans-serif;
     width: 30vw;
     margin-top: 1vw;
+}
+
+#inventoryItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    width: 100vw;
+
+}
+
+.bados{
+    display: flex;
+    background-color: rgb(84, 84, 84);
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-weight: 650;
+    padding: 0.5vw;
 }
 

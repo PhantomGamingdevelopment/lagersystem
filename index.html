@@ -18,43 +18,35 @@
     <h2>Inventory Items</h2>
 
 <div id="inventoryItems">
-    <p>Navn...</p>
-    <ul id="navn"></ul>
-    <p>Beskrivelse...</p>
+    <div class="bados">
+        <p>Navn:</p>
+        <ul id="navn"></ul>
+    </div>
+<div class="bados">
+    <p>Beskrivelse:</p>
     <ul id="Beskrivelselist"></ul>
+</div>
+
+<div class="bados">
     <p>Tilgjengelighetsstatus:</p>
     <ul id="stk"></ul>
 </div>
 
-
-    <div id="inventoryItems">
-        <div id="item">
-            <img src="" alt="">
-            <p>Navn...</p>
-            <ul id="navn"></ul>
-            <p>Beskrivelse...</p>
-            <ul id="Beskrivelselist"></ul>
-            <p>Tilgjengelighetsstatus:</p>
-            <ul id="stk"></ul>
-        </div>
-    </div>
+</div>
 
     <!-- Eksempel 2: Dynamisk liste -->
     <section>
         <input id="liste" type="text" placeholder="Skriv inn Produktnavn">
-        <button id="leggTilProdukt">Skriv inn Produktnavn</button>
     </section>
 
     <section>
         <input id="Beskrivelseelement" type="text" placeholder="Legg inn beskrivelse">
-        <button id="Leggtilbeskrivelse">Legg til beskrivelse</button>
     </section>
 
     <section>
         <input id="Leggtilantall" type="text" placeholder="Skriv inn antall i tall">
-        <button id="leggTil">Legg til antall</button>
     </section>
-
+    <button id="leggTilProdukt">Legg til Produktet</button>
     <section>
         <button id="Lagre">Lagre endringer</button>
     </section>

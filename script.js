@@ -19,7 +19,7 @@ document.getElementById("leggTilProdukt").addEventListener("click", function () 
     }
 });
 
-document.getElementById("leggTil").addEventListener("click", function () {
+document.getElementById("leggTilProdukt").addEventListener("click", function () {
     let nyttElement = document.getElementById("Leggtilantall").value;
     if (nyttElement.trim() !== "") {
         let liste = document.getElementById("stk");
@@ -33,7 +33,7 @@ document.getElementById("leggTil").addEventListener("click", function () {
 });
 
 
-document.getElementById("Leggtilbeskrivelse").addEventListener("click", function () {
+document.getElementById("leggTilProdukt").addEventListener("click", function () {
     let nyttElement = document.getElementById("Beskrivelseelement").value;
     if (nyttElement.trim() !== "") {
         let liste = document.getElementById("Beskrivelselist");
