@@ -11,9 +11,10 @@ body{
     width: auto;
     justify-content: space-between;
     height: auto;
-    flex-direction: column;
+    flex-direction: row;
     padding: 1vw;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #item{
@@ -23,7 +24,7 @@ body{
     height: auto;
     flex-direction: column;
     padding: 1vw;
-    
+    font-family: 'Open Sans', sans-serif;
 }
 
 #Lagre{
@@ -36,5 +37,49 @@ body{
     color: rgb(255, 255, 255);
     font-size: 1.5vw;
     font-weight: bold;
-
+    font-family: 'Open Sans', sans-serif;
 }
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#leggTilProdukt, #liste{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 1.5vw;
+    padding: 1vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    width: 30vw;
+    margin-top: 1vw;
+}
+
+#Leggtilbeskrivelse, #Beskrivelseelement{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 1.5vw;
+    padding: 1vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    width: 30vw;
+    margin-top: 1vw;
+}
+
+#leggTil, #Leggtilantall{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 1.5vw;
+    padding: 1vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    width: 30vw;
+    margin-top: 1vw;
+}
+
