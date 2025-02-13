@@ -13,7 +13,7 @@ document.getElementById("leggTilProdukt").addEventListener("click", function () 
         let li = document.createElement("li");
         li.textContent = nyttElement;
         liste.appendChild(li);
-        document.getElementById("liste").value = "";
+        document.getElementById("liste").value = "";    
     } else {
         alert("Produktnavn ikke lagt til.");
     }
