@@ -4,6 +4,8 @@ document.getElementById("Lagre").addEventListener("click", function () {
     alert("Alle endringer er nå lagret!");
 });
 
+let expected_storage_count = 0
+
 document.getElementById("leggTilProdukt").addEventListener("click", function () {
     let error = ""; // samle alle feilkoder her
 
@@ -48,3 +50,5 @@ document.getElementById("leggTilProdukt").addEventListener("click", function () 
         alert("Følgende feil oppstod:\n" + error);
     }
 });
+
+alert("du har nå tatt ut følgende produkt: " + produktNavn + "med: " + antalltattut + "STK")
